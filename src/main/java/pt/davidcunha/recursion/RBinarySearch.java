@@ -8,23 +8,23 @@ package pt.davidcunha.recursion;
  *
  * @author David Cunha <davidgoncalvescunha AT gmail DOT pt>
  */
-public class BinarySearch {
+public class RBinarySearch {
 
     private int nElemns;
     private long[] arr;
 
     /**
-     * BinarySearch public constructor
+     * RBinarySearch public constructor
      *
      * @param max array initialization
      */
-    public BinarySearch(int max) {
+    public RBinarySearch(int max) {
         arr = new long[max];
         nElemns = 0;
     }
 
     /**
-     * BinarySearch getter
+     * RBinarySearch getter
      *
      * @return array
      */
@@ -33,7 +33,7 @@ public class BinarySearch {
     }
 
     /**
-     * Insert function (sorted)
+     * Insert function (assume that the items are sorted)
      *
      * @param n number to insert in the array
      */
@@ -67,7 +67,7 @@ public class BinarySearch {
     }
 
     /**
-     * Binary Search
+     * Recursive Binary Search
      *
      * @param n element to be searched
      * @return element
