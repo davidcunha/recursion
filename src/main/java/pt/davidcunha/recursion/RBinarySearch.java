@@ -70,6 +70,8 @@ public class RBinarySearch {
      * Recursive Binary Search
      *
      * @param n element to be searched
+     * @param lb lower bound from the array
+     * @param ub upper bound from the array
      * @return element
      */
     public int binarySearch(long n, int lb, int ub) {
