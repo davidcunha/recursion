@@ -3,8 +3,6 @@
  */
 package pt.davidcunha.recursion;
 
-import java.util.Arrays;
-
 /**
  *
  * @author David Cunha <davidgoncalvescunha AT gmail DOT pt>
