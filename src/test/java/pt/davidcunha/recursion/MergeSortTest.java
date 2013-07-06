@@ -17,6 +17,6 @@ public class MergeSortTest {
         MergeSort mSort = new MergeSort(initArray);
         mSort.run(workspace, 0, nItems - 1);
 
-        assertEquals("10\n15\n20\n25\n40\n60\n", mSort.display());
+        assertEquals("[10, 15, 20, 25, 40, 60]", mSort.display());
     }
 }
